@@ -1,0 +1,19 @@
+{
+  "lab": "statistics",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.0007334000038099475,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "precision_prevalence_1pct": 0.15384615384615385,
+    "precision_prevalence_0_1pct": 0.01769911504424779,
+    "zero_failures_n1000_one_sided_95pct_upper": 0.0029912495450953314,
+    "constructed_unused_coordinate_probe_accuracy": 1.0,
+    "output_change_after_flipping_probed_coordinate": 0.0,
+    "assumption": "Independent identically distributed Bernoulli trials."
+  }
+}

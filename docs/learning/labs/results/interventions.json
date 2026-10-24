@@ -1,0 +1,40 @@
+{
+  "lab": "interventions",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.000701599994499702,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "restoration_examples": [
+      0.5,
+      3.0
+    ],
+    "redundancy_ablation": [
+      {
+        "ablate_first": 0,
+        "ablate_second": 0,
+        "output": 1
+      },
+      {
+        "ablate_first": 0,
+        "ablate_second": 1,
+        "output": 1
+      },
+      {
+        "ablate_first": 1,
+        "ablate_second": 0,
+        "output": 1
+      },
+      {
+        "ablate_first": 1,
+        "ablate_second": 1,
+        "output": 0
+      }
+    ],
+    "zero_denominator_rejected": true
+  }
+}

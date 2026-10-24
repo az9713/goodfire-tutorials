@@ -1,0 +1,737 @@
+{
+  "format": "fixed_offline_course",
+  "adaptive": false,
+  "groups": [
+    {
+      "id": "neurons",
+      "title": "Native neurons and feature control",
+      "sources": [
+        "s02",
+        "s40",
+        "s45",
+        "s44",
+        "s57",
+        "s55"
+      ]
+    },
+    {
+      "id": "sparse",
+      "title": "Sparse autoencoders and reasoning-model features",
+      "sources": [
+        "s48",
+        "s41",
+        "s35",
+        "s33"
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Neural geometry and computation on manifolds",
+      "sources": [
+        "s04",
+        "s18",
+        "s16",
+        "s15",
+        "s11",
+        "s12",
+        "s34"
+      ]
+    },
+    {
+      "id": "circuits",
+      "title": "Circuits, causality, binding, and temporal representations",
+      "sources": [
+        "s39",
+        "s37",
+        "s32",
+        "s30",
+        "s29"
+      ]
+    },
+    {
+      "id": "parameters",
+      "title": "From activations to model parameters",
+      "sources": [
+        "s19",
+        "s38",
+        "s05"
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "Learning dynamics, interference, and memorization",
+      "sources": [
+        "s14",
+        "s28"
+      ]
+    },
+    {
+      "id": "training",
+      "title": "Interpreting data and shaping training",
+      "sources": [
+        "s06",
+        "s03",
+        "s21",
+        "s26",
+        "s24",
+        "s36"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "title": "Probes, reasoning, evaluation, and deployed monitors",
+      "sources": [
+        "s49",
+        "s09",
+        "s25",
+        "s31",
+        "s07",
+        "s08",
+        "s13",
+        "s17",
+        "s20",
+        "s10",
+        "s46"
+      ]
+    },
+    {
+      "id": "science",
+      "title": "Scientific discovery from biological models",
+      "sources": [
+        "s42",
+        "s22",
+        "s23",
+        "s27"
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Research practice, infrastructure, and the field agenda",
+      "sources": [
+        "s51",
+        "s53",
+        "s52",
+        "s50",
+        "s43",
+        "s47",
+        "s54",
+        "s56"
+      ]
+    }
+  ],
+  "preflight": [
+    {
+      "id": "p01",
+      "title": "Linear algebra for reading neural computations",
+      "file": "preflight/p01.html"
+    },
+    {
+      "id": "p02",
+      "title": "Neural networks, gradients, and the transformer forward pass",
+      "file": "preflight/p02.html"
+    },
+    {
+      "id": "p03",
+      "title": "Causal interventions and trustworthy experiments",
+      "file": "preflight/p03.html"
+    },
+    {
+      "id": "p04",
+      "title": "Probability, probes, evaluation, and uncertainty",
+      "file": "preflight/p04.html"
+    },
+    {
+      "id": "p05",
+      "title": "Geometry, sparse coding, and Fourier representations",
+      "file": "preflight/p05.html"
+    },
+    {
+      "id": "p06",
+      "title": "Guided Python experiments and reproducibility",
+      "file": "preflight/p06.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s01",
+      "number": 1,
+      "title": "Understand and debug your AI model",
+      "source_url": "https://www.goodfire.com/",
+      "group": "navigation",
+      "role": "navigation",
+      "guide": null,
+      "solution": null
+    },
+    {
+      "id": "s02",
+      "number": 2,
+      "title": "Neural Networks Are Already Clean",
+      "source_url": "https://already-clean.goodfire.com/",
+      "group": "neurons",
+      "role": "study",
+      "guide": "guides/s02.html",
+      "solution": "solutions/s02.html"
+    },
+    {
+      "id": "s03",
+      "number": 3,
+      "title": "Predictive Data Debugging: Reveal and Shape What Your Model Learns, Before You Train",
+      "source_url": "https://www.goodfire.com/research/predictive-data-debugging",
+      "group": "training",
+      "role": "study",
+      "guide": "guides/s03.html",
+      "solution": "solutions/s03.html"
+    },
+    {
+      "id": "s04",
+      "number": 4,
+      "title": "The World Inside Neural Networks",
+      "source_url": "https://www.goodfire.com/research/the-world-inside-neural-networks",
+      "group": "geometry",
+      "role": "study",
+      "guide": "guides/s04.html",
+      "solution": "solutions/s04.html"
+    },
+    {
+      "id": "s05",
+      "number": 5,
+      "title": "Interpreting Language Model Parameters",
+      "source_url": "https://www.goodfire.com/research/interpreting-lm-parameters",
+      "group": "parameters",
+      "role": "study",
+      "guide": "guides/s05.html",
+      "solution": "solutions/s05.html"
+    },
+    {
+      "id": "s06",
+      "number": 6,
+      "title": "Intentionally designing the future of AI",
+      "source_url": "https://www.goodfire.com/blog/intentional-design",
+      "group": "training",
+      "role": "study",
+      "guide": "guides/s06.html",
+      "solution": "solutions/s06.html"
+    },
+    {
+      "id": "s07",
+      "number": 7,
+      "title": "Training and Deploying Production Cyber Monitors on Kimi K3",
+      "source_url": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s07.html",
+      "solution": "solutions/s07.html"
+    },
+    {
+      "id": "s08",
+      "number": 8,
+      "title": "Better biosecurity monitors for AI agents via protein embeddings",
+      "source_url": "https://www.goodfire.com/research/better-biosecurity-monitors",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s08.html",
+      "solution": "solutions/s08.html"
+    },
+    {
+      "id": "s09",
+      "number": 9,
+      "title": "Models know when they’re reward hacking — and we can catch them at scale",
+      "source_url": "https://www.goodfire.com/research/reward-hacking-activation-monitors",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s09.html",
+      "solution": "solutions/s09.html"
+    },
+    {
+      "id": "s10",
+      "number": 10,
+      "title": "Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation",
+      "source_url": "https://arxiv.org/abs/2608.19611",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s10.html",
+      "solution": "solutions/s10.html"
+    },
+    {
+      "id": "s11",
+      "number": 11,
+      "title": "Uncovering Neural Geometry in Vision Models With Block-Sparse Featurizers",
+      "source_url": "https://www.goodfire.com/research/bsf-vision",
+      "group": "geometry",
+      "role": "study",
+      "guide": "guides/s11.html",
+      "solution": "solutions/s11.html"
+    },
+    {
+      "id": "s12",
+      "number": 12,
+      "title": "Meandering on Manifolds: The Neural Geometry of Stories Over Time",
+      "source_url": "https://www.goodfire.com/research/stories-in-space",
+      "group": "geometry",
+      "role": "study",
+      "guide": "guides/s12.html",
+      "solution": "solutions/s12.html"
+    },
+    {
+      "id": "s13",
+      "number": 13,
+      "title": "Logits as a new monitor for evaluation awareness — LessWrong",
+      "source_url": "https://www.lesswrong.com/posts/PK7ZvFZxrgpYtrpF4/logits-as-a-new-monitor-for-evaluation-awareness-1",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s13.html",
+      "solution": "solutions/s13.html"
+    },
+    {
+      "id": "s14",
+      "number": 14,
+      "title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+      "source_url": "https://arxiv.org/abs/2605.29548",
+      "group": "learning",
+      "role": "study",
+      "guide": "guides/s14.html",
+      "solution": "solutions/s14.html"
+    },
+    {
+      "id": "s15",
+      "number": 15,
+      "title": "Can SAEs Capture Neural Geometry?",
+      "source_url": "https://www.goodfire.com/research/can-saes-capture-neural-geometry",
+      "group": "geometry",
+      "role": "study",
+      "guide": "guides/s15.html",
+      "solution": "solutions/s15.html"
+    },
+    {
+      "id": "s16",
+      "number": 16,
+      "title": "A Geometric Calculator Inside a Neural Network",
+      "source_url": "https://www.goodfire.com/research/a-geometric-calculator",
+      "group": "geometry",
+      "role": "study",
+      "guide": "guides/s16.html",
+      "solution": "solutions/s16.html"
+    },
+    {
+      "id": "s17",
+      "number": 17,
+      "title": "Predicting Rare LLM Failures with 30× Fewer Rollouts — LessWrong",
+      "source_url": "https://www.lesswrong.com/posts/CempXdo6cx5yseRLt/predicting-rare-llm-failures-with-30-fewer-rollouts",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s17.html",
+      "solution": "solutions/s17.html"
+    },
+    {
+      "id": "s18",
+      "number": 18,
+      "title": "Steering Along Manifolds to Control Neural Networks",
+      "source_url": "https://www.goodfire.com/research/manifold-steering",
+      "group": "geometry",
+      "role": "study",
+      "guide": "guides/s18.html",
+      "solution": "solutions/s18.html"
+    },
+    {
+      "id": "s19",
+      "number": 19,
+      "title": "Paper Summary: Interpreting Language Model Parameters",
+      "source_url": "https://www.goodfire.com/research/vpd-explainer",
+      "group": "parameters",
+      "role": "study",
+      "guide": "guides/s19.html",
+      "solution": "solutions/s19.html"
+    },
+    {
+      "id": "s20",
+      "number": 20,
+      "title": "Verbalized Eval Awareness Inflates Measured Safety",
+      "source_url": "https://www.goodfire.com/research/verbalized-eval-awareness-inflates-measured-safety",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s20.html",
+      "solution": "solutions/s20.html"
+    },
+    {
+      "id": "s21",
+      "number": 21,
+      "title": "Probe-Based Data Attribution: Surfacing and Mitigating Undesirable Behaviors in LLM Post-Training",
+      "source_url": "https://www.goodfire.com/research/probe-based-data-attribution",
+      "group": "training",
+      "role": "study",
+      "guide": "guides/s21.html",
+      "solution": "solutions/s21.html"
+    },
+    {
+      "id": "s22",
+      "number": 22,
+      "title": "Explaining 4.2 million genetic variants with state-of-the-art, interpretable predictions",
+      "source_url": "https://www.goodfire.com/research/evee-explaining-genetic-variants",
+      "group": "science",
+      "role": "study",
+      "guide": "guides/s22.html",
+      "solution": "solutions/s22.html"
+    },
+    {
+      "id": "s23",
+      "number": 23,
+      "title": "Covariance-based Sequence Pooling",
+      "source_url": "https://www.goodfire.com/research/covariance-pooling",
+      "group": "science",
+      "role": "study",
+      "guide": "guides/s23.html",
+      "solution": "solutions/s23.html"
+    },
+    {
+      "id": "s24",
+      "number": 24,
+      "title": "Using Self-Correcting Search to Accelerate Materials Discovery",
+      "source_url": "https://www.goodfire.com/research/self-correcting-search",
+      "group": "training",
+      "role": "study",
+      "guide": "guides/s24.html",
+      "solution": "solutions/s24.html"
+    },
+    {
+      "id": "s25",
+      "number": 25,
+      "title": "Reasoning Theater: Probing for Performative Chain-of-Thought",
+      "source_url": "https://www.goodfire.com/research/reasoning-theater",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s25.html",
+      "solution": "solutions/s25.html"
+    },
+    {
+      "id": "s26",
+      "number": 26,
+      "title": "Features as Rewards: Using Interpretability to Reduce Hallucinations",
+      "source_url": "https://www.goodfire.com/research/rlfr",
+      "group": "training",
+      "role": "study",
+      "guide": "guides/s26.html",
+      "solution": "solutions/s26.html"
+    },
+    {
+      "id": "s27",
+      "number": 27,
+      "title": "Using Interpretability to Identify a Novel Class of Alzheimer's Biomarkers",
+      "source_url": "https://www.goodfire.com/research/interpretability-for-alzheimers-detection",
+      "group": "science",
+      "role": "study",
+      "guide": "guides/s27.html",
+      "solution": "solutions/s27.html"
+    },
+    {
+      "id": "s28",
+      "number": 28,
+      "title": "Understanding Memorization via Loss Curvature",
+      "source_url": "https://www.goodfire.com/research/understanding-memorization-via-loss-curvature",
+      "group": "learning",
+      "role": "study",
+      "guide": "guides/s28.html",
+      "solution": "solutions/s28.html"
+    },
+    {
+      "id": "s29",
+      "number": 29,
+      "title": "Priors in Time: Missing Inductive Biases for Language Model Interpretability",
+      "source_url": "https://arxiv.org/abs/2511.01836",
+      "group": "circuits",
+      "role": "study",
+      "guide": "guides/s29.html",
+      "solution": "solutions/s29.html"
+    },
+    {
+      "id": "s30",
+      "number": 30,
+      "title": "Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering",
+      "source_url": "https://arxiv.org/abs/2511.00617",
+      "group": "circuits",
+      "role": "study",
+      "guide": "guides/s30.html",
+      "solution": "solutions/s30.html"
+    },
+    {
+      "id": "s31",
+      "number": 31,
+      "title": "Deploying Interpretability to Production with Rakuten: SAE Probes for PII Detection",
+      "source_url": "https://www.goodfire.com/research/rakuten-sae-probes-for-pii-detection",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s31.html",
+      "solution": "solutions/s31.html"
+    },
+    {
+      "id": "s32",
+      "number": 32,
+      "title": "Mixing Mechanisms: How Language Models Retrieve Bound Entities In-Context",
+      "source_url": "https://arxiv.org/abs/2510.06182",
+      "group": "circuits",
+      "role": "study",
+      "guide": "guides/s32.html",
+      "solution": "solutions/s32.html"
+    },
+    {
+      "id": "s33",
+      "number": 33,
+      "title": "Understanding sparse autoencoder scaling in the presence of feature manifolds",
+      "source_url": "https://arxiv.org/abs/2509.02565",
+      "group": "sparse",
+      "role": "study",
+      "guide": "guides/s33.html",
+      "solution": "solutions/s33.html"
+    },
+    {
+      "id": "s34",
+      "number": 34,
+      "title": "Finding the Tree of Life in Evo 2",
+      "source_url": "https://www.goodfire.com/research/phylogeny-manifold",
+      "group": "geometry",
+      "role": "study",
+      "guide": "guides/s34.html",
+      "solution": "solutions/s34.html"
+    },
+    {
+      "id": "s35",
+      "number": 35,
+      "title": "Adversarial Examples Are Not Bugs, They Are Superposition",
+      "source_url": "https://arxiv.org/abs/2508.17456",
+      "group": "sparse",
+      "role": "study",
+      "guide": "guides/s35.html",
+      "solution": "solutions/s35.html"
+    },
+    {
+      "id": "s36",
+      "number": 36,
+      "title": "Discovering Undesired Rare Behaviors via Model Diff Amplification",
+      "source_url": "https://www.goodfire.com/research/model-diff-amplification",
+      "group": "training",
+      "role": "study",
+      "guide": "guides/s36.html",
+      "solution": "solutions/s36.html"
+    },
+    {
+      "id": "s37",
+      "number": 37,
+      "title": "The Circuits Research Landscape: Results and Perspectives - August 2025",
+      "source_url": "https://www.neuronpedia.org/graph/info",
+      "group": "circuits",
+      "role": "study",
+      "guide": "guides/s37.html",
+      "solution": "solutions/s37.html"
+    },
+    {
+      "id": "s38",
+      "number": 38,
+      "title": "Towards Scalable Parameter Decomposition",
+      "source_url": "https://www.goodfire.com/research/stochastic-param-decomp",
+      "group": "parameters",
+      "role": "study",
+      "guide": "guides/s38.html",
+      "solution": "solutions/s38.html"
+    },
+    {
+      "id": "s39",
+      "number": 39,
+      "title": "Replicating Circuit Tracing for a Simple Known Mechanism",
+      "source_url": "https://www.goodfire.com/research/replicating-circuit-tracing-for-a-simple-mechanism",
+      "group": "circuits",
+      "role": "study",
+      "guide": "guides/s39.html",
+      "solution": "solutions/s39.html"
+    },
+    {
+      "id": "s40",
+      "number": 40,
+      "title": "Painting with concepts using diffusion model latents",
+      "source_url": "https://www.goodfire.com/research/painting-with-concepts",
+      "group": "neurons",
+      "role": "study",
+      "guide": "guides/s40.html",
+      "solution": "solutions/s40.html"
+    },
+    {
+      "id": "s41",
+      "number": 41,
+      "title": "Under the Hood of a Reasoning Model",
+      "source_url": "https://www.goodfire.com/research/under-the-hood-of-a-reasoning-model",
+      "group": "sparse",
+      "role": "study",
+      "guide": "guides/s41.html",
+      "solution": "solutions/s41.html"
+    },
+    {
+      "id": "s42",
+      "number": 42,
+      "title": "Interpreting Evo 2: Arc Institute's Next-Generation Genomic Foundation Model",
+      "source_url": "https://www.goodfire.com/research/interpreting-evo-2",
+      "group": "science",
+      "role": "study",
+      "guide": "guides/s42.html",
+      "solution": "solutions/s42.html"
+    },
+    {
+      "id": "s43",
+      "number": 43,
+      "title": "Open Problems in Mechanistic Interpretability",
+      "source_url": "https://arxiv.org/abs/2501.16496",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s43.html",
+      "solution": "solutions/s43.html"
+    },
+    {
+      "id": "s44",
+      "number": 44,
+      "title": "Mapping the Latent Space of Llama 3.3 70B",
+      "source_url": "https://www.goodfire.com/research/mapping-latent-spaces-llama",
+      "group": "neurons",
+      "role": "study",
+      "guide": "guides/s44.html",
+      "solution": "solutions/s44.html"
+    },
+    {
+      "id": "s45",
+      "number": 45,
+      "title": "Understanding and Steering Llama 3 with Sparse Autoencoders",
+      "source_url": "https://www.goodfire.com/research/understanding-and-steering-llama-3",
+      "group": "neurons",
+      "role": "study",
+      "guide": "guides/s45.html",
+      "solution": "solutions/s45.html"
+    },
+    {
+      "id": "s46",
+      "number": 46,
+      "title": "Goodfire and Baseten partner to bring frontier safety to open models",
+      "source_url": "https://www.goodfire.com/blog/goodfire-baseten-partnership",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s46.html",
+      "solution": "solutions/s46.html"
+    },
+    {
+      "id": "s47",
+      "number": 47,
+      "title": "We can and must solve alignment",
+      "source_url": "https://www.goodfire.com/blog/we-can-and-must-solve-alignment",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s47.html",
+      "solution": "solutions/s47.html"
+    },
+    {
+      "id": "s48",
+      "number": 48,
+      "title": "A practical guide to sparse autoencoders (SAEs)",
+      "source_url": "https://www.goodfire.com/blog/a-practical-guide-to-saes",
+      "group": "sparse",
+      "role": "study",
+      "guide": "guides/s48.html",
+      "solution": "solutions/s48.html"
+    },
+    {
+      "id": "s49",
+      "number": 49,
+      "title": "How to build fast, efficient monitors for AI models using probes",
+      "source_url": "https://www.goodfire.com/blog/probe-monitors-101",
+      "group": "monitoring",
+      "role": "study",
+      "guide": "guides/s49.html",
+      "solution": "solutions/s49.html"
+    },
+    {
+      "id": "s50",
+      "number": 50,
+      "title": "AI Safety Still Needs Great Engineers",
+      "source_url": "https://www.goodfire.com/blog/ai-safety-still-needs-great-engineers",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s50.html",
+      "solution": "solutions/s50.html"
+    },
+    {
+      "id": "s51",
+      "number": 51,
+      "title": "Interpretability Infrastructure at Frontier Scale: Harvesting Activations from a Trillion-Parameter Model",
+      "source_url": "https://www.goodfire.com/blog/interpretability-infra-at-frontier-scale",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s51.html",
+      "solution": "solutions/s51.html"
+    },
+    {
+      "id": "s52",
+      "number": 52,
+      "title": "Stanford Guest Lectures: AP293 (Fall 2025)",
+      "source_url": "https://www.goodfire.com/blog/ap293-guest-lectures-25",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s52.html",
+      "solution": "solutions/s52.html"
+    },
+    {
+      "id": "s53",
+      "number": 53,
+      "title": "You and Your Research Agent: Lessons From Using Agents for Interpretability Research",
+      "source_url": "https://www.goodfire.com/blog/you-and-your-research-agent",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s53.html",
+      "solution": "solutions/s53.html"
+    },
+    {
+      "id": "s54",
+      "number": 54,
+      "title": "On Optimism for Interpretability",
+      "source_url": "https://www.goodfire.com/blog/on-optimism-for-interpretability",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s54.html",
+      "solution": "solutions/s54.html"
+    },
+    {
+      "id": "s55",
+      "number": 55,
+      "title": "Announcing Open-Source SAEs for Llama 3.3 70B and Llama 3.1 8B",
+      "source_url": "https://www.goodfire.com/blog/sae-open-source-announcement",
+      "group": "neurons",
+      "role": "study",
+      "guide": "guides/s55.html",
+      "solution": "solutions/s55.html"
+    },
+    {
+      "id": "s56",
+      "number": 56,
+      "title": "Our Approach to Safety at Goodfire",
+      "source_url": "https://www.goodfire.com/blog/our-approach-to-safety",
+      "group": "practice",
+      "role": "study",
+      "guide": "guides/s56.html",
+      "solution": "solutions/s56.html"
+    },
+    {
+      "id": "s57",
+      "number": 57,
+      "title": "Feature Steering for Reliable and Expressive AI Engineering",
+      "source_url": "https://www.goodfire.com/blog/feature-steering-for-reliable-and-expressive-ai-engineering",
+      "group": "neurons",
+      "role": "study",
+      "guide": "guides/s57.html",
+      "solution": "solutions/s57.html"
+    },
+    {
+      "id": "s58",
+      "number": 58,
+      "title": "The Neural Geometry Series",
+      "source_url": "https://www.goodfire.com/research/neural-geometry",
+      "group": "navigation",
+      "role": "navigation",
+      "guide": null,
+      "solution": null
+    }
+  ],
+  "edition": "Public tutorials; original publications are linked at their publishers."
+}

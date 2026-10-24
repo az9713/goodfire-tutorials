@@ -1,0 +1,464 @@
+{
+  "complete": true,
+  "missing": [],
+  "sources": [
+    {
+      "id": "s01",
+      "role": "navigation",
+      "title": "Understand and debug your AI model"
+    },
+    {
+      "id": "s02",
+      "role": "study",
+      "title": "Neural Networks Are Already Clean",
+      "guide": "guides/s02.html",
+      "solution": "solutions/s02.html",
+      "words_without_solutions": 1959
+    },
+    {
+      "id": "s03",
+      "role": "study",
+      "title": "Predictive Data Debugging: Reveal and Shape What Your Model Learns, Before You Train",
+      "guide": "guides/s03.html",
+      "solution": "solutions/s03.html",
+      "words_without_solutions": 1556
+    },
+    {
+      "id": "s04",
+      "role": "study",
+      "title": "The World Inside Neural Networks",
+      "guide": "guides/s04.html",
+      "solution": "solutions/s04.html",
+      "words_without_solutions": 1787
+    },
+    {
+      "id": "s05",
+      "role": "study",
+      "title": "Interpreting Language Model Parameters",
+      "guide": "guides/s05.html",
+      "solution": "solutions/s05.html",
+      "words_without_solutions": 1949
+    },
+    {
+      "id": "s06",
+      "role": "study",
+      "title": "Intentionally designing the future of AI",
+      "guide": "guides/s06.html",
+      "solution": "solutions/s06.html",
+      "words_without_solutions": 1623
+    },
+    {
+      "id": "s07",
+      "role": "study",
+      "title": "Training and Deploying Production Cyber Monitors on Kimi K3",
+      "guide": "guides/s07.html",
+      "solution": "solutions/s07.html",
+      "words_without_solutions": 680
+    },
+    {
+      "id": "s08",
+      "role": "study",
+      "title": "Better biosecurity monitors for AI agents via protein embeddings",
+      "guide": "guides/s08.html",
+      "solution": "solutions/s08.html",
+      "words_without_solutions": 666
+    },
+    {
+      "id": "s09",
+      "role": "study",
+      "title": "Models know when they’re reward hacking — and we can catch them at scale",
+      "guide": "guides/s09.html",
+      "solution": "solutions/s09.html",
+      "words_without_solutions": 639
+    },
+    {
+      "id": "s10",
+      "role": "study",
+      "title": "Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation",
+      "guide": "guides/s10.html",
+      "solution": "solutions/s10.html",
+      "words_without_solutions": 954
+    },
+    {
+      "id": "s11",
+      "role": "study",
+      "title": "Uncovering Neural Geometry in Vision Models With Block-Sparse Featurizers",
+      "guide": "guides/s11.html",
+      "solution": "solutions/s11.html",
+      "words_without_solutions": 790
+    },
+    {
+      "id": "s12",
+      "role": "study",
+      "title": "Meandering on Manifolds: The Neural Geometry of Stories Over Time",
+      "guide": "guides/s12.html",
+      "solution": "solutions/s12.html",
+      "words_without_solutions": 788
+    },
+    {
+      "id": "s13",
+      "role": "study",
+      "title": "Logits as a new monitor for evaluation awareness — LessWrong",
+      "guide": "guides/s13.html",
+      "solution": "solutions/s13.html",
+      "words_without_solutions": 654
+    },
+    {
+      "id": "s14",
+      "role": "study",
+      "title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+      "guide": "guides/s14.html",
+      "solution": "solutions/s14.html",
+      "words_without_solutions": 863
+    },
+    {
+      "id": "s15",
+      "role": "study",
+      "title": "Can SAEs Capture Neural Geometry?",
+      "guide": "guides/s15.html",
+      "solution": "solutions/s15.html",
+      "words_without_solutions": 788
+    },
+    {
+      "id": "s16",
+      "role": "study",
+      "title": "A Geometric Calculator Inside a Neural Network",
+      "guide": "guides/s16.html",
+      "solution": "solutions/s16.html",
+      "words_without_solutions": 750
+    },
+    {
+      "id": "s17",
+      "role": "study",
+      "title": "Predicting Rare LLM Failures with 30× Fewer Rollouts — LessWrong",
+      "guide": "guides/s17.html",
+      "solution": "solutions/s17.html",
+      "words_without_solutions": 651
+    },
+    {
+      "id": "s18",
+      "role": "study",
+      "title": "Steering Along Manifolds to Control Neural Networks",
+      "guide": "guides/s18.html",
+      "solution": "solutions/s18.html",
+      "words_without_solutions": 685
+    },
+    {
+      "id": "s19",
+      "role": "study",
+      "title": "Paper Summary: Interpreting Language Model Parameters",
+      "guide": "guides/s19.html",
+      "solution": "solutions/s19.html",
+      "words_without_solutions": 731
+    },
+    {
+      "id": "s20",
+      "role": "study",
+      "title": "Verbalized Eval Awareness Inflates Measured Safety",
+      "guide": "guides/s20.html",
+      "solution": "solutions/s20.html",
+      "words_without_solutions": 700
+    },
+    {
+      "id": "s21",
+      "role": "study",
+      "title": "Probe-Based Data Attribution: Surfacing and Mitigating Undesirable Behaviors in LLM Post-Training",
+      "guide": "guides/s21.html",
+      "solution": "solutions/s21.html",
+      "words_without_solutions": 704
+    },
+    {
+      "id": "s22",
+      "role": "study",
+      "title": "Explaining 4.2 million genetic variants with state-of-the-art, interpretable predictions",
+      "guide": "guides/s22.html",
+      "solution": "solutions/s22.html",
+      "words_without_solutions": 695
+    },
+    {
+      "id": "s23",
+      "role": "study",
+      "title": "Covariance-based Sequence Pooling",
+      "guide": "guides/s23.html",
+      "solution": "solutions/s23.html",
+      "words_without_solutions": 643
+    },
+    {
+      "id": "s24",
+      "role": "study",
+      "title": "Using Self-Correcting Search to Accelerate Materials Discovery",
+      "guide": "guides/s24.html",
+      "solution": "solutions/s24.html",
+      "words_without_solutions": 745
+    },
+    {
+      "id": "s25",
+      "role": "study",
+      "title": "Reasoning Theater: Probing for Performative Chain-of-Thought",
+      "guide": "guides/s25.html",
+      "solution": "solutions/s25.html",
+      "words_without_solutions": 669
+    },
+    {
+      "id": "s26",
+      "role": "study",
+      "title": "Features as Rewards: Using Interpretability to Reduce Hallucinations",
+      "guide": "guides/s26.html",
+      "solution": "solutions/s26.html",
+      "words_without_solutions": 811
+    },
+    {
+      "id": "s27",
+      "role": "study",
+      "title": "Using Interpretability to Identify a Novel Class of Alzheimer's Biomarkers",
+      "guide": "guides/s27.html",
+      "solution": "solutions/s27.html",
+      "words_without_solutions": 684
+    },
+    {
+      "id": "s28",
+      "role": "study",
+      "title": "Understanding Memorization via Loss Curvature",
+      "guide": "guides/s28.html",
+      "solution": "solutions/s28.html",
+      "words_without_solutions": 895
+    },
+    {
+      "id": "s29",
+      "role": "study",
+      "title": "Priors in Time: Missing Inductive Biases for Language Model Interpretability",
+      "guide": "guides/s29.html",
+      "solution": "solutions/s29.html",
+      "words_without_solutions": 783
+    },
+    {
+      "id": "s30",
+      "role": "study",
+      "title": "Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering",
+      "guide": "guides/s30.html",
+      "solution": "solutions/s30.html",
+      "words_without_solutions": 740
+    },
+    {
+      "id": "s31",
+      "role": "study",
+      "title": "Deploying Interpretability to Production with Rakuten: SAE Probes for PII Detection",
+      "guide": "guides/s31.html",
+      "solution": "solutions/s31.html",
+      "words_without_solutions": 697
+    },
+    {
+      "id": "s32",
+      "role": "study",
+      "title": "Mixing Mechanisms: How Language Models Retrieve Bound Entities In-Context",
+      "guide": "guides/s32.html",
+      "solution": "solutions/s32.html",
+      "words_without_solutions": 809
+    },
+    {
+      "id": "s33",
+      "role": "study",
+      "title": "Understanding sparse autoencoder scaling in the presence of feature manifolds",
+      "guide": "guides/s33.html",
+      "solution": "solutions/s33.html",
+      "words_without_solutions": 711
+    },
+    {
+      "id": "s34",
+      "role": "study",
+      "title": "Finding the Tree of Life in Evo 2",
+      "guide": "guides/s34.html",
+      "solution": "solutions/s34.html",
+      "words_without_solutions": 771
+    },
+    {
+      "id": "s35",
+      "role": "study",
+      "title": "Adversarial Examples Are Not Bugs, They Are Superposition",
+      "guide": "guides/s35.html",
+      "solution": "solutions/s35.html",
+      "words_without_solutions": 711
+    },
+    {
+      "id": "s36",
+      "role": "study",
+      "title": "Discovering Undesired Rare Behaviors via Model Diff Amplification",
+      "guide": "guides/s36.html",
+      "solution": "solutions/s36.html",
+      "words_without_solutions": 686
+    },
+    {
+      "id": "s37",
+      "role": "study",
+      "title": "The Circuits Research Landscape: Results and Perspectives - August 2025",
+      "guide": "guides/s37.html",
+      "solution": "solutions/s37.html",
+      "words_without_solutions": 776
+    },
+    {
+      "id": "s38",
+      "role": "study",
+      "title": "Towards Scalable Parameter Decomposition",
+      "guide": "guides/s38.html",
+      "solution": "solutions/s38.html",
+      "words_without_solutions": 647
+    },
+    {
+      "id": "s39",
+      "role": "study",
+      "title": "Replicating Circuit Tracing for a Simple Known Mechanism",
+      "guide": "guides/s39.html",
+      "solution": "solutions/s39.html",
+      "words_without_solutions": 778
+    },
+    {
+      "id": "s40",
+      "role": "study",
+      "title": "Painting with concepts using diffusion model latents",
+      "guide": "guides/s40.html",
+      "solution": "solutions/s40.html",
+      "words_without_solutions": 752
+    },
+    {
+      "id": "s41",
+      "role": "study",
+      "title": "Under the Hood of a Reasoning Model",
+      "guide": "guides/s41.html",
+      "solution": "solutions/s41.html",
+      "words_without_solutions": 789
+    },
+    {
+      "id": "s42",
+      "role": "study",
+      "title": "Interpreting Evo 2: Arc Institute's Next-Generation Genomic Foundation Model",
+      "guide": "guides/s42.html",
+      "solution": "solutions/s42.html",
+      "words_without_solutions": 702
+    },
+    {
+      "id": "s43",
+      "role": "study",
+      "title": "Open Problems in Mechanistic Interpretability",
+      "guide": "guides/s43.html",
+      "solution": "solutions/s43.html",
+      "words_without_solutions": 930
+    },
+    {
+      "id": "s44",
+      "role": "study",
+      "title": "Mapping the Latent Space of Llama 3.3 70B",
+      "guide": "guides/s44.html",
+      "solution": "solutions/s44.html",
+      "words_without_solutions": 753
+    },
+    {
+      "id": "s45",
+      "role": "study",
+      "title": "Understanding and Steering Llama 3 with Sparse Autoencoders",
+      "guide": "guides/s45.html",
+      "solution": "solutions/s45.html",
+      "words_without_solutions": 709
+    },
+    {
+      "id": "s46",
+      "role": "study",
+      "title": "Goodfire and Baseten partner to bring frontier safety to open models",
+      "guide": "guides/s46.html",
+      "solution": "solutions/s46.html",
+      "words_without_solutions": 534
+    },
+    {
+      "id": "s47",
+      "role": "study",
+      "title": "We can and must solve alignment",
+      "guide": "guides/s47.html",
+      "solution": "solutions/s47.html",
+      "words_without_solutions": 815
+    },
+    {
+      "id": "s48",
+      "role": "study",
+      "title": "A practical guide to sparse autoencoders (SAEs)",
+      "guide": "guides/s48.html",
+      "solution": "solutions/s48.html",
+      "words_without_solutions": 886
+    },
+    {
+      "id": "s49",
+      "role": "study",
+      "title": "How to build fast, efficient monitors for AI models using probes",
+      "guide": "guides/s49.html",
+      "solution": "solutions/s49.html",
+      "words_without_solutions": 687
+    },
+    {
+      "id": "s50",
+      "role": "study",
+      "title": "AI Safety Still Needs Great Engineers",
+      "guide": "guides/s50.html",
+      "solution": "solutions/s50.html",
+      "words_without_solutions": 676
+    },
+    {
+      "id": "s51",
+      "role": "study",
+      "title": "Interpretability Infrastructure at Frontier Scale: Harvesting Activations from a Trillion-Parameter Model",
+      "guide": "guides/s51.html",
+      "solution": "solutions/s51.html",
+      "words_without_solutions": 757
+    },
+    {
+      "id": "s52",
+      "role": "study",
+      "title": "Stanford Guest Lectures: AP293 (Fall 2025)",
+      "guide": "guides/s52.html",
+      "solution": "solutions/s52.html",
+      "words_without_solutions": 452
+    },
+    {
+      "id": "s53",
+      "role": "study",
+      "title": "You and Your Research Agent: Lessons From Using Agents for Interpretability Research",
+      "guide": "guides/s53.html",
+      "solution": "solutions/s53.html",
+      "words_without_solutions": 803
+    },
+    {
+      "id": "s54",
+      "role": "study",
+      "title": "On Optimism for Interpretability",
+      "guide": "guides/s54.html",
+      "solution": "solutions/s54.html",
+      "words_without_solutions": 753
+    },
+    {
+      "id": "s55",
+      "role": "study",
+      "title": "Announcing Open-Source SAEs for Llama 3.3 70B and Llama 3.1 8B",
+      "guide": "guides/s55.html",
+      "solution": "solutions/s55.html",
+      "words_without_solutions": 719
+    },
+    {
+      "id": "s56",
+      "role": "study",
+      "title": "Our Approach to Safety at Goodfire",
+      "guide": "guides/s56.html",
+      "solution": "solutions/s56.html",
+      "words_without_solutions": 748
+    },
+    {
+      "id": "s57",
+      "role": "study",
+      "title": "Feature Steering for Reliable and Expressive AI Engineering",
+      "guide": "guides/s57.html",
+      "solution": "solutions/s57.html",
+      "words_without_solutions": 757
+    },
+    {
+      "id": "s58",
+      "role": "navigation",
+      "title": "The Neural Geometry Series"
+    }
+  ]
+}

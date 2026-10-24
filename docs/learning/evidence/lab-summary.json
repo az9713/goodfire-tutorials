@@ -1,0 +1,383 @@
+{
+  "labs": 13,
+  "all_passed": true,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "total_cpu_wall_seconds": 13.002798400018946,
+  "receipts": [
+    {
+      "lab": "attention",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.00044660000276053324,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "weights": [
+          0.8044296825069569,
+          0.19557031749304313
+        ],
+        "original_values_output": 2.6088593650139136,
+        "swapped_values_output_same_attention": 1.3911406349860864,
+        "interpretation": "Attention weights alone do not specify the output."
+      }
+    },
+    {
+      "lab": "biology",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.00037370000063674524,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "mean_A": [
+          0.0,
+          0.0
+        ],
+        "mean_B": [
+          0.0,
+          0.0
+        ],
+        "second_moment_A": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "second_moment_B": [
+          [
+            1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ]
+        ],
+        "scope": "Two synthetic embedding sequences; no genomic or clinical claim."
+      }
+    },
+    {
+      "lab": "coordinates",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.27005080000526505,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "covariance": [
+          [
+            100.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "top_pc_variance_fraction": 0.9900990099009901,
+        "best_label_accuracy_from_first_coordinate": 0.5,
+        "label_accuracy_from_second_coordinate": 1.0,
+        "linear_interface_rotation_verified": true
+      }
+    },
+    {
+      "lab": "data",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.0012376000013318844,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "preference_difference_mean": [
+          1.0,
+          0.3333333333333333
+        ],
+        "loss_gradient_at_zero": [
+          -0.5,
+          -0.16666666666666666
+        ],
+        "finite_difference": [
+          -0.4999999999921733,
+          -0.16666666666775853
+        ],
+        "balanced_spurious_coordinate_gradient": 0.0,
+        "scope": "Linear logistic preference surrogate with beta=1; not full DPO training."
+      }
+    },
+    {
+      "lab": "geometry",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.2892305999994278,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "circle_matrix_rank": 2,
+        "chord_midpoint_radius": 0.7071067811865476,
+        "mod12_2_plus3": [
+          -0.8660254037844386,
+          0.5000000000000001
+        ]
+      }
+    },
+    {
+      "lab": "interventions",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.000701599994499702,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "restoration_examples": [
+          0.5,
+          3.0
+        ],
+        "redundancy_ablation": [
+          {
+            "ablate_first": 0,
+            "ablate_second": 0,
+            "output": 1
+          },
+          {
+            "ablate_first": 0,
+            "ablate_second": 1,
+            "output": 1
+          },
+          {
+            "ablate_first": 1,
+            "ablate_second": 0,
+            "output": 1
+          },
+          {
+            "ablate_first": 1,
+            "ablate_second": 1,
+            "output": 0
+          }
+        ],
+        "zero_denominator_rejected": true
+      }
+    },
+    {
+      "lab": "monitoring",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.0002474000066285953,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "routed_fraction": 0.18000000000000002,
+        "expected_cost_relative_to_judge_all": 0.19000000000000003,
+        "idealized_speedup": 5.263157894736842,
+        "end_to_end_recall_given_conditional_judge_recall": 0.855,
+        "scope": "Analytic cascade example; conditional judge recall is an assumption."
+      }
+    },
+    {
+      "lab": "parameters",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.0005175999976927415,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "matrix": [
+          [
+            2.0,
+            1.0
+          ],
+          [
+            1.0,
+            3.0
+          ]
+        ],
+        "component1": [
+          [
+            2.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "component2": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            3.0
+          ]
+        ],
+        "cancellation_components_relative_norms": [
+          100,
+          99
+        ],
+        "residual_error_on_narrow_test": 0.0,
+        "residual_error_on_orthogonal_input": 0.01,
+        "scope": "Identifiability and coverage fixtures, not SPD/VPD replication."
+      }
+    },
+    {
+      "lab": "relu",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.6090177000005497,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "x": [
+          -3.0,
+          -1.0,
+          1.0,
+          3.0
+        ],
+        "output": [
+          3.0,
+          1.0,
+          1.0,
+          3.0
+        ],
+        "gradient": [
+          -1.0,
+          -1.0,
+          1.0,
+          1.0
+        ],
+        "minus3_ablate_negative_branch": 0,
+        "claim": "Exact constructed network; no trained-model result."
+      }
+    },
+    {
+      "lab": "routing",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 5.255902900004003,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "train_examples": 104,
+        "test_examples": 24,
+        "steps": 400,
+        "train_accuracy": 1.0,
+        "test_accuracy": 1.0,
+        "test_accuracy_erasing_each_input_position": [
+          0.5416666865348816,
+          0.625,
+          0.5416666865348816
+        ],
+        "final_loss": 0.0002303080982528627,
+        "scope": "One split and seed; erasure can be off-distribution; not natural-language circuit evidence."
+      }
+    },
+    {
+      "lab": "sparse",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.28465590000269003,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "initial_objective": 1.1770149827591643,
+        "final_objective": 0.050443470263560955,
+        "relative_reconstruction_error": 0.021744688549964388,
+        "coefficients": [
+          0.9814490087853651,
+          0.0,
+          -0.0,
+          -0.6814490087853659,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale10_penalty_ratio": 0.1,
+        "scope": "Fixed dictionary inference, not trained SAE or causal recovery."
+      }
+    },
+    {
+      "lab": "statistics",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 0.0007334000038099475,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "precision_prevalence_1pct": 0.15384615384615385,
+        "precision_prevalence_0_1pct": 0.01769911504424779,
+        "zero_failures_n1000_one_sided_95pct_upper": 0.0029912495450953314,
+        "constructed_unused_coordinate_probe_accuracy": 1.0,
+        "output_change_after_flipping_probed_coordinate": 0.0,
+        "assumption": "Independent identically distributed Bernoulli trials."
+      }
+    },
+    {
+      "lab": "vision",
+      "seed": 1729,
+      "device": "cpu",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "torch": "2.11.0+cu128",
+      "elapsed_seconds": 6.289682599999651,
+      "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+      "checks": "passed",
+      "result": {
+        "train_examples": 480,
+        "test_examples": 160,
+        "steps": 160,
+        "initial_loss": 0.6953402161598206,
+        "final_loss": 0.007117855362594128,
+        "test_accuracy": 1.0,
+        "test_accuracy_by_ablated_channel": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scope": "Generated IID stripe data; small CNN; no natural-image generalization claim."
+      }
+    }
+  ]
+}

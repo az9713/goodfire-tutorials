@@ -1,0 +1,19 @@
+{
+  "lab": "geometry",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.2892305999994278,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "circle_matrix_rank": 2,
+    "chord_midpoint_radius": 0.7071067811865476,
+    "mod12_2_plus3": [
+      -0.8660254037844386,
+      0.5000000000000001
+    ]
+  }
+}

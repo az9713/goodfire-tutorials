@@ -1,0 +1,25 @@
+{
+  "lab": "routing",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 5.255902900004003,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "train_examples": 104,
+    "test_examples": 24,
+    "steps": 400,
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_accuracy_erasing_each_input_position": [
+      0.5416666865348816,
+      0.625,
+      0.5416666865348816
+    ],
+    "final_loss": 0.0002303080982528627,
+    "scope": "One split and seed; erasure can be off-distribution; not natural-language circuit evidence."
+  }
+}

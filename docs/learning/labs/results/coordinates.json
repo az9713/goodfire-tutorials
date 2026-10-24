@@ -1,0 +1,27 @@
+{
+  "lab": "coordinates",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.27005080000526505,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "covariance": [
+      [
+        100.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "top_pc_variance_fraction": 0.9900990099009901,
+    "best_label_accuracy_from_first_coordinate": 0.5,
+    "label_accuracy_from_second_coordinate": 1.0,
+    "linear_interface_rotation_verified": true
+  }
+}

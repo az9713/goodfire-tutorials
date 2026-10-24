@@ -1,0 +1,9 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "matplotlib": "3.9.3",
+  "device_for_core_labs": "cpu",
+  "internet_required_for_core_labs": false,
+  "fresh_machine_note": "Install compatible versions before going offline. Binary wheels vary by platform."
+}

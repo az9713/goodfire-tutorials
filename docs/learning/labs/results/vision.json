@@ -1,0 +1,26 @@
+{
+  "lab": "vision",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 6.289682599999651,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "train_examples": 480,
+    "test_examples": 160,
+    "steps": 160,
+    "initial_loss": 0.6953402161598206,
+    "final_loss": 0.007117855362594128,
+    "test_accuracy": 1.0,
+    "test_accuracy_by_ablated_channel": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "Generated IID stripe data; small CNN; no natural-image generalization claim."
+  }
+}

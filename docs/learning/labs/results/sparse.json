@@ -1,0 +1,29 @@
+{
+  "lab": "sparse",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.28465590000269003,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "initial_objective": 1.1770149827591643,
+    "final_objective": 0.050443470263560955,
+    "relative_reconstruction_error": 0.021744688549964388,
+    "coefficients": [
+      0.9814490087853651,
+      0.0,
+      -0.0,
+      -0.6814490087853659,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "scale10_penalty_ratio": 0.1,
+    "scope": "Fixed dictionary inference, not trained SAE or causal recovery."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "html_pages": 131,
+  "local_links_checked": 1821,
+  "public_files_scanned": 171,
+  "reachable_commits_checked": 1,
+  "unique_history_entries_scanned": 172,
+  "email_policy": "allowed",
+  "original_source_documents": "linked_at_publishers",
+  "errors": []
+}

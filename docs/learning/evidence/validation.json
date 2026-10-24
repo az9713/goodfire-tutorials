@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-24T05:46:40.005202+00:00",
+  "source_records": 58,
+  "study_companions": 56,
+  "preflights": 6,
+  "exercise_answer_pairs_minimum": 186,
+  "lesson_words_without_solutions": 50537,
+  "html_pages_checked": 130,
+  "failures": [],
+  "warnings": [],
+  "passed": true
+}

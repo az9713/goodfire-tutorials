@@ -1,0 +1,14 @@
+# Default-deny publication boundary: the local research archive stays private.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/NOTICE.md
+!/PRIVACY.md
+!/docs/
+!/scripts/
+!/publication-checks.json
+__pycache__/
+*.pyc
+.env*
+*.log

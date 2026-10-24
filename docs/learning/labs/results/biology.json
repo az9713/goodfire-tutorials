@@ -1,0 +1,42 @@
+{
+  "lab": "biology",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.00037370000063674524,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "mean_A": [
+      0.0,
+      0.0
+    ],
+    "mean_B": [
+      0.0,
+      0.0
+    ],
+    "second_moment_A": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "second_moment_B": [
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ],
+    "scope": "Two synthetic embedding sequences; no genomic or clinical claim."
+  }
+}

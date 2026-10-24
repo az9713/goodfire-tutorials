@@ -1,0 +1,50 @@
+{
+  "lab": "parameters",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.0005175999976927415,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "matrix": [
+      [
+        2.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0
+      ]
+    ],
+    "component1": [
+      [
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "component2": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0
+      ]
+    ],
+    "cancellation_components_relative_norms": [
+      100,
+      99
+    ],
+    "residual_error_on_narrow_test": 0.0,
+    "residual_error_on_orthogonal_input": 0.01,
+    "scope": "Identifiability and coverage fixtures, not SPD/VPD replication."
+  }
+}

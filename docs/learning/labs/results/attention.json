@@ -1,0 +1,20 @@
+{
+  "lab": "attention",
+  "seed": 1729,
+  "device": "cpu",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "elapsed_seconds": 0.00044660000276053324,
+  "script_sha256": "a3bd8ca83db7c6a2c8e4f5e5b1f1fb2c8d7c7134744129801ee80ba50075af84",
+  "checks": "passed",
+  "result": {
+    "weights": [
+      0.8044296825069569,
+      0.19557031749304313
+    ],
+    "original_values_output": 2.6088593650139136,
+    "swapped_values_output_same_attention": 1.3911406349860864,
+    "interpretation": "Attention weights alone do not specify the output."
+  }
+}
